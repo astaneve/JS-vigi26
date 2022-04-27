@@ -1,11 +1,20 @@
 // kintamieji
-// let style;
-// style = Sans;
+let style;
+let colorPen;
+let heightPen;
+
+style = "Sans";
+colorPen = "violet"
+heightPen = 20;
 
 const products = "pens";
-const price = 2;
 const color = "red";
+const price = 2;
+const quantity = 10;
+const height = 15;
 const isBlue = true;
+const isWood = false;
+const isRed = false;
 
 // 2.1
 
