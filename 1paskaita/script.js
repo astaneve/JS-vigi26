@@ -1,4 +1,14 @@
 // One line komentaras
+// !!! Patikrinti rašybos klaidas
+// 1. Patikrinti ar esu tinkamam folderyje - komanda ls (:C/Users/Rokas/JS-VIGI26/2_paskaita)
+// 2. Patikrinti ar išsaugojau failą(-us) - baltas taškas prie failo pavadinimo
+// 3. Patikrinti ar įrašiau console.log()
+// 4. Patikrinti ar tinkamai paleidau failą "node script.js"
+// 5. Patikrinti terminalo išmetamą žinutę
+// 6. Ar failas yra ikeltas i atitinkama folderi
+// 7. Komandos: cd 1paskaiata - eina i kita folderi 
+// (cd ..) -grizta atgal per viena folderi
+// ls - isveda visus folderio failus
 
 /*
     Sveiki, cia yra    
