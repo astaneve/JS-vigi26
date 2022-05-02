@@ -32,6 +32,8 @@ if (age > 100 || age < 0) {
 
 const car = "VW";
 
+// || - or (arba)
+// && - and (ir)
 
 if (car === "VW" || car === "Bentley" || car === "Audi" || car === "Bugatti" || car === "Lamborghini" || car === "Porsche") {
     console.log("VW group");
