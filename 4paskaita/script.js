@@ -105,10 +105,10 @@ console.log("Ketvirta paskaita, for ciklai");
 // } while (i < 3);
 
 
-for (let i = 10; i < 0; i +=2) {
-    if (i % 2);
+for (let i = 2; i <=10; i +=2) {
+    console.log(i); 
 }
-console.log(i)
+
 
 // let x = 9;
 // while (x >= 1) {
@@ -120,3 +120,21 @@ console.log(i)
 // for (let x = 9; x >=1; x = x - 1) {
 //     console.log("hello " + x);
 // }
+
+const laugh = "ha";
+let times = 4;
+let result = " ";
+
+do {
+    result += laugh;
+    times--;
+} while (times > 0);
+    console.log(result + "!");
+
+function getLaugh(num) {
+    let message = ' ';
+    for(let i = 0; i < num; i++) message += 'ha';
+      return message + "!";
+    }
+    console.log(getLaugh(4));
+
