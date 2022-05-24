@@ -84,3 +84,11 @@ function getMaxSubSum(array) {
 
  const sum = getMaxSubSUm(arr);
  console.log(sum)
+
+
+//  const cars = ["BMW", "MCB", "VWG", "Toyota"];
+//  const x = cars.reduce((a, v) => (v.length === 3 ? a + 1 : a), 0);
+
+//  BMW.length === 3 ? 0 + 1 : 0;
+//  MCB.length === 1 ? 1 + 1;
+//  Toyota.length === 3 ? 2 + 1 : 2;
