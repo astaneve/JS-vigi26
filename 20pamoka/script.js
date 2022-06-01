@@ -50,10 +50,17 @@ console.log(cat.isFat());
 // console.log(newTest);
 
 
-// const testString = "Rokas !@#$%^ Tomas 123"
+const testString = "Rokas !@#$%^ Tomas 123"
 // // ats: "Rokas !!@@##$$%%^^ Tomas 112233"
-// const newTestString = testString.split("").map((char) => (isNaN(char) ? char + char : char)).join("");
-// console.log(newTestString);
+
+const isLetter = (char) => char.toLowerCase() !== cat.toUpperCase();
+const newTest = testString
+.split("")
+.map((char) => (isLetter(char) || char === " " ? char : char + char))
+.join("");
+console.log(newTest);
+
+
 
 // isNaN("a") ? "a" + "a" : "a" => "aa"
 // isNaN(1) ? "1" + "1" : "1" = > "1"
@@ -63,24 +70,24 @@ console.log(cat.isFat());
 // patikrinti ar susideda is 3 skaiciu ir 2 raidziu
 // patikrinti ar turi tarpa
 
-const checkPostCode = (postCode) => {
-const letters = removeLettersFromArray(postCode.split(""));
-const numbers = removeNumbersFromArray(postCode.split(""));
-if (postCode.includes(" ")) {
-return false;
-} else if (letters.length === 5) {
-    return true;
-} else if (letters.length === 3 && numbers.length === 2) {
-return true;
-} else {
-    return false;
-}
+// const checkPostCode = (postCode) => {
+// const letters = removeLettersFromArray(postCode.split(""));
+// const numbers = removeNumbersFromArray(postCode.split(""));
+// if (postCode.includes(" ")) {
+// return false;
+// } else if (letters.length === 5) {
+//     return true;
+// } else if (letters.length === 3 && numbers.length === 2) {
+// return true;
+// } else {
+//     return false;
+// }
 
 
-// console.log(removedLetters);
-// console.log(removedNumbers);
-};
+// // console.log(removedLetters);
+// // console.log(removedNumbers);
+// };
 
-const code = "12335"; // false
-console.log(checkPostCode(code));
+// const code = "12335"; // false
+// console.log(checkPostCode(code));
 // checkPostCode(code);
