@@ -72,3 +72,24 @@ function firstAndLastChar(string) {
 }
 
 console.log(firstAndLastChar("Asta"));
+
+
+// "rokas" => ["r", "o", "k", "a", "s"]
+// array.length
+// first item - [0],
+// last item - [array.length - 1]
+
+const colors = ["red", "blue", "green", "white", "black", "yellow", "purple"],
+
+function removeColors(colorArray) {
+    colorArray.pop(); // ismeta is galo
+    colorArray.shift(); // ismeta is priekio
+    colorArray.shift();
+    colorArray.shift();
+    colorArray.shift();
+    colorArray.shift();
+    colorArray.unshift("green");
+}
+
+removeColors(colors);
+console.log(colors);
